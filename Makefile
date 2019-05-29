@@ -5,11 +5,14 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-# BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
 PROFILE = default
 PROJECT_NAME = ml_lifeexpectancy
 PYTHON_INTERPRETER = python
 PYTHON_VERSION = 3
+
+RAW = data/raw/T10_priority_Wide_Interpolated.csv data/raw/US_A.csv
+INTERIM = data/interim/X_priority_allyrs.csv
+PROCESSED = data/processed/X_priority.csv data/processed/y_priority.csv
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
@@ -30,9 +33,18 @@ else
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 endif
 
+## Freeze environment for both pip and conda
+freeze:
+ifeq (True,$(HAS_CONDA))
+	pip freeze > requirements.txt
+endif
+	conda env export > environment.yaml 
+
 ## Make Dataset
-data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py
+$(PROCESSED) $(INTERIM): $(RAW)
+	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/interim data/processed	
+
+data: requirements $(PROCESSED) $(INTERIM)
 
 ## Delete all compiled Python files
 clean:
@@ -42,22 +54,6 @@ clean:
 ## Lint using flake8
 lint:
 	flake8 src
-
-## Upload Data to S3
-sync_data_to_s3:
-# ifeq (default,$(PROFILE))
-# 	aws s3 sync data/ s3://$(BUCKET)/data/
-# else
-# 	aws s3 sync data/ s3://$(BUCKET)/data/ --profile $(PROFILE)
-# endif
-
-# ## Download Data from S3
-# sync_data_from_s3:
-# ifeq (default,$(PROFILE))
-# 	aws s3 sync s3://$(BUCKET)/data/ data/
-# else
-# 	aws s3 sync s3://$(BUCKET)/data/ data/ --profile $(PROFILE)
-# endif
 
 ## Set up python interpreter environment
 create_environment:
