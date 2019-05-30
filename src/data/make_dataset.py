@@ -41,9 +41,7 @@ def main(raw_filepath, interim_filepath, processed_filepath):
 
     data_allyrs = data_X.join(data_y, how='right')
 
-    drop_cols = ['t10_gis_area_k_2010',
-                 't10_gis_area_l_2010',
-                 'm10_cen_memi_x_2010',
+    drop_cols = ['t10_gis_area_l_2010',
                  'm10_cen_uid_u_2010',
                  'c10_cen_uid_u_2010',
                  'z10_cen_uid_u_2010']
