@@ -41,7 +41,7 @@ endif
 	conda env export > environment.yaml 
 
 ## Make Dataset
-$(PROCESSED) $(INTERIM): $(RAW)
+$(PROCESSED) $(INTERIM): $(RAW) src/data/make_dataset.py
 	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/interim data/processed	
 
 data: requirements $(PROCESSED) $(INTERIM)
