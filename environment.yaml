@@ -1,5 +1,6 @@
 name: ml_lifeexpectancy
 channels:
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
@@ -11,22 +12,31 @@ dependencies:
   - certifi=2019.3.9=py37_0
   - click=7.0=py_0
   - colorama=0.4.1=py_0
+  - cycler=0.10.0=py37_0
   - decorator=4.4.0=py_0
   - defusedxml=0.5.0=py_1
+  - eli5=0.9.0=py_0
   - entrypoints=0.3=py37_1000
   - flake8=3.7.7=py37_0
+  - freetype=2.9.1=ha9979f8_1
+  - graphviz=2.38.0=h6538335_1011
   - icc_rt=2019.0.0=h0cc432a_1
+  - icu=58.2=vc14hc45fdbb_0
   - intel-openmp=2019.3=203
   - ipykernel=5.1.0=py37h39e3cac_1002
   - ipython=7.5.0=py37h39e3cac_0
   - ipython_genutils=0.2.0=py_1
   - jedi=0.13.3=py37_0
   - jinja2=2.10.1=py_0
+  - joblib=0.13.2=py37_0
+  - jpeg=9b=vc14h4d7706e_1
   - jsonschema=3.0.1=py37_0
   - jupyter_client=5.2.4=py_3
   - jupyter_core=4.4.0=py_0
   - jupyterlab=0.35.6=py37_0
   - jupyterlab_server=0.2.0=py_0
+  - kiwisolver=1.1.0=py37ha925a31_0
+  - libpng=1.6.37=h2a8f88b_0
   - libsodium=1.0.16=h2fa13f4_1001
   - m2w64-gcc-libgfortran=5.3.0=6
   - m2w64-gcc-libs=5.3.0=7
@@ -34,6 +44,7 @@ dependencies:
   - m2w64-gmp=6.1.0=2
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markupsafe=1.1.1=py37hfa6e2cd_0
+  - matplotlib=3.1.0=py37hc8f65d3_0
   - mccabe=0.6.1=py37_1
   - mistune=0.8.4=py37hfa6e2cd_1000
   - mkl=2019.3=203
@@ -50,6 +61,7 @@ dependencies:
   - pandoc=2.7.2=0
   - pandocfilters=1.4.2=py_1
   - parso=0.4.0=py_0
+  - patsy=0.5.1=py37_0
   - pickleshare=0.7.5=py37_1000
   - pip=19.1.1=py37_0
   - prometheus_client=0.6.0=py_0
@@ -57,23 +69,33 @@ dependencies:
   - pycodestyle=2.5.0=py37_0
   - pyflakes=2.1.1=py37_0
   - pygments=2.4.0=py_0
+  - pyparsing=2.4.0=py_0
+  - pyqt=5.9.2=py37h6538335_2
   - pyrsistent=0.15.2=py37hfa6e2cd_0
   - python=3.7.3=h8c8aaf0_1
   - python-dateutil=2.8.0=py37_0
   - python-dotenv=0.10.1=py_0
+  - python-graphviz=0.11.1=py_0
   - pytz=2019.1=py_0
   - pywinpty=0.5.5=py37_1000
   - pyzmq=18.0.1=py37he7828b0_1
+  - qt=5.9.7=vc14h73c81de_0
   - scikit-learn=0.20.3=py37h343c172_0
   - scipy=1.2.1=py37h29ff71c_0
+  - seaborn=0.9.0=py37_0
   - send2trash=1.5.0=py_0
   - setuptools=41.0.1=py37_0
+  - singledispatch=3.4.0.3=py37_1000
+  - sip=4.19.8=py37h6538335_0
   - six=1.12.0=py37_0
   - sqlite=3.28.0=he774522_0
+  - statsmodels=0.9.0=py37h452e1ab_0
+  - tabulate=0.8.3=py_0
   - terminado=0.8.2=py37_0
   - testpath=0.4.2=py_1001
   - tornado=6.0.2=py37hfa6e2cd_0
   - traitlets=4.3.2=py37_1000
+  - typing=3.6.4=py37_0
   - vc=14.1=h0510ff6_4
   - vs2015_runtime=14.15.26706=h3a45250_4
   - wcwidth=0.1.7=py_1
@@ -82,6 +104,7 @@ dependencies:
   - wincertstore=0.2=py37_0
   - winpty=0.4.3=4
   - zeromq=4.3.1=he025d50_1000
+  - zlib=1.2.11=vc14h1cdd9ab_1
   - pip:
     - filelock==3.0.10
     - pluggy==0.11.0
@@ -89,5 +112,6 @@ dependencies:
     - toml==0.10.0
     - tox==3.9.0
     - virtualenv==16.5.0
+    - xgboost==0.90
 prefix: C:\Users\jc4673\AppData\Local\Continuum\miniconda3\envs\ml_lifeexpectancy
 
