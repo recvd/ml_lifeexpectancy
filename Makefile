@@ -1,4 +1,4 @@
-.PHONY: clean data lint requirements sync_data_to_s3 sync_data_from_s3
+.PHONY: requirements clean lint sync_data_to_s3 sync_data_from_s3
 
 #################################################################################
 # GLOBALS                                                                       #
@@ -10,9 +10,13 @@ PROJECT_NAME = ml_lifeexpectancy
 PYTHON_INTERPRETER = python
 PYTHON_VERSION = 3
 
-RAW = data/raw/T10_priority_Wide_Interpolated.csv data/raw/US_A.csv
+RAW = data/raw/T10_priority_Wide_Interpolated.csv \
+	data/raw/US_A.csv \
+	data/raw/recvd_t10_vars_v8_20190607.csv
 INTERIM = data/interim/X_priority_allyrs.csv
-PROCESSED = data/processed/X_priority.csv data/processed/y_priority.csv
+PROCESSED = data/processed/X_priority.csv \
+	data/processed/y_priority.csv \
+	data/processed/X_nets.csv
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
@@ -42,9 +46,9 @@ endif
 
 ## Make Dataset
 $(PROCESSED) $(INTERIM): $(RAW) src/data/make_dataset.py
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/interim data/processed	
+	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/interim data/processed
 
-data: requirements $(PROCESSED) $(INTERIM)
+data: $(PROCESSED) $(INTERIM)
 
 ## Delete all compiled Python files
 clean:
