@@ -22,7 +22,10 @@ def main(raw_filepath, interim_filepath, processed_filepath):
     logger.info('making final data set from raw data')
 
     years = ['2010', '2011', '2012', '2013', '2014']
-    # get colnames that we need
+
+    ###
+    # Priority Dataset
+    ###
 
     with open(raw_filepath / 'T10_Priority_Wide_Interpolated.csv', 'r') as f:
         cols = f.readline().strip().split(',')
@@ -59,6 +62,28 @@ def main(raw_filepath, interim_filepath, processed_filepath):
 
     X_priority = X_priority_allyrs.groupby(axis=1, level=0).mean()
     X_priority.to_csv(processed_filepath / 'X_priority.csv')
+
+
+    ###
+    # NETS Dataset
+    ###
+
+    with open(raw_filepath / 'recvd_t10_vars_v8_20190607.csv', 'r') as f:
+        nets_cols = f.readline().strip().split(',')
+
+    # only take 'h'ierarchal 'nets' 'd'ensity variables
+    net_bool = lambda x: 'net' in x and x[-4:] in years and x[11] == 'h' and x[13] == 'd'
+    nets_cols = ['t10_cen_uid_u_2010'] + [x for x in nets_cols if net_bool(x)]
+
+    nets_X_allyrs = pd.read_csv(raw_filepath / 'recvd_t10_vars_v8_20190607.csv', usecols=nets_cols,
+                         dtype={'t10_cen_uid_u_2010': "object"}) \
+        .set_index('t10_cen_uid_u_2010') \
+        .reindex(data_y.index)
+
+    nets_X_allyrs.columns = pd.Index([(x[:-5], int(x[-4:])) for x in nets_X_allyrs.columns])
+    nets_X = nets_X_allyrs.groupby(axis=1, level=0).mean()
+    nets_X.to_csv(processed_filepath / 'X_nets.csv')
+
 
 if __name__ == '__main__':
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
