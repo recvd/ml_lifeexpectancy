@@ -12,11 +12,20 @@ PYTHON_VERSION = 3
 
 RAW = data/raw/T10_priority_Wide_Interpolated.csv \
 	data/raw/US_A.csv \
+	data/raw/US_B.csv \
 	data/raw/recvd_t10_vars_v8_20190607.csv
-INTERIM = data/interim/X_priority_allyrs.csv
-PROCESSED = data/processed/X_priority.csv \
-	data/processed/y_priority.csv \
-	data/processed/X_nets.csv
+INTERIM = data/interim/X_priority_allyrs.csv \
+	data/interim/X_nets.csv \
+	data/interim/X_priority.csv \
+	data/interim/y_priority.csv
+PROCESSED = data/processed/X_varSet_1.csv \
+	data/processed/X_varSet_2.csv \
+	data/processed/X_varSet_3.csv \
+	data/processed/X_varSet_4.csv \
+	data/processed/y_0.csv \
+	data/processed/y_20.csv \
+	data/processed/y_40.csv \
+	data/processed/y_60.csv \
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False

@@ -1,0 +1,211 @@
+,feature,coef
+0,1,0.0
+1,t10_ldb_hinci_m,0.3307113282879916
+2,t10_ldb_pop_d,-0.6032448511555236
+3,t10_ldb_ag25dwn_p,-0.047451467122485366
+4,t10_ldb_ag60up_p,0.5342966645801109
+5,t10_ldb_nhblk_p,-0.0
+6,t10_ldb_hisp_p,-0.0
+7,t10_ldb_col_p,0.3303908553832034
+8,t10_ldb_lep_p,-0.0
+9,t10_ldb_mrenti_m,0.22252718098411953
+10,t10_ldb_multi_p,-0.0
+11,t10_ldb_nhwht_p,0.0
+12,t10_ldb_asian_p,0.014824504914166023
+13,t10_ldb_fb_p,0.0
+14,t10_ldb_hs_p,-0.8076621550636517
+15,t10_ldb_unemp_p,-0.0
+16,t10_ldb_npov_p,-0.45086633300624457
+17,t10_ldb_vac_p,0.39206406544326006
+18,t10_ldb_own_p,0.44890948074774495
+19,t10_ldb_mhmvali_m,0.5460389149305124
+20,t10_ldb_hinci_m^2,0.24599735371110315
+21,t10_ldb_hinci_m t10_ldb_pop_d,0.005911840969401468
+22,t10_ldb_hinci_m t10_ldb_ag25dwn_p,0.0
+23,t10_ldb_hinci_m t10_ldb_ag60up_p,0.08656770711883248
+24,t10_ldb_hinci_m t10_ldb_nhblk_p,-0.0
+25,t10_ldb_hinci_m t10_ldb_hisp_p,0.0009916877659234215
+26,t10_ldb_hinci_m t10_ldb_col_p,0.0
+27,t10_ldb_hinci_m t10_ldb_lep_p,0.0
+28,t10_ldb_hinci_m t10_ldb_mrenti_m,0.0
+29,t10_ldb_hinci_m t10_ldb_multi_p,-0.13859254046073724
+30,t10_ldb_hinci_m t10_ldb_nhwht_p,-0.46411744477911726
+31,t10_ldb_hinci_m t10_ldb_asian_p,-0.0779807899987837
+32,t10_ldb_hinci_m t10_ldb_fb_p,0.0
+33,t10_ldb_hinci_m t10_ldb_hs_p,0.11663077223096631
+34,t10_ldb_hinci_m t10_ldb_unemp_p,-0.01581710245223316
+35,t10_ldb_hinci_m t10_ldb_npov_p,0.22682423909021016
+36,t10_ldb_hinci_m t10_ldb_vac_p,-0.0
+37,t10_ldb_hinci_m t10_ldb_own_p,-0.6640495374468035
+38,t10_ldb_hinci_m t10_ldb_mhmvali_m,0.0
+39,t10_ldb_pop_d^2,0.12804526094432392
+40,t10_ldb_pop_d t10_ldb_ag25dwn_p,0.08189736384021175
+41,t10_ldb_pop_d t10_ldb_ag60up_p,0.20046032129994426
+42,t10_ldb_pop_d t10_ldb_nhblk_p,-0.06060008632378763
+43,t10_ldb_pop_d t10_ldb_hisp_p,0.0
+44,t10_ldb_pop_d t10_ldb_col_p,-0.021365443317206283
+45,t10_ldb_pop_d t10_ldb_lep_p,-0.01068235319700244
+46,t10_ldb_pop_d t10_ldb_mrenti_m,-0.0
+47,t10_ldb_pop_d t10_ldb_multi_p,0.33753647208223203
+48,t10_ldb_pop_d t10_ldb_nhwht_p,-0.08734767611918301
+49,t10_ldb_pop_d t10_ldb_asian_p,0.0
+50,t10_ldb_pop_d t10_ldb_fb_p,0.0
+51,t10_ldb_pop_d t10_ldb_hs_p,0.0
+52,t10_ldb_pop_d t10_ldb_unemp_p,-0.04118958353650153
+53,t10_ldb_pop_d t10_ldb_npov_p,0.0001902225438475181
+54,t10_ldb_pop_d t10_ldb_vac_p,-0.021824181555846842
+55,t10_ldb_pop_d t10_ldb_own_p,0.0
+56,t10_ldb_pop_d t10_ldb_mhmvali_m,0.07051387993151073
+57,t10_ldb_ag25dwn_p^2,-0.0
+58,t10_ldb_ag25dwn_p t10_ldb_ag60up_p,0.0
+59,t10_ldb_ag25dwn_p t10_ldb_nhblk_p,-0.19985154145416018
+60,t10_ldb_ag25dwn_p t10_ldb_hisp_p,-0.0
+61,t10_ldb_ag25dwn_p t10_ldb_col_p,0.060368858234052684
+62,t10_ldb_ag25dwn_p t10_ldb_lep_p,0.16901726176509504
+63,t10_ldb_ag25dwn_p t10_ldb_mrenti_m,0.05489442893131417
+64,t10_ldb_ag25dwn_p t10_ldb_multi_p,0.22496999851638533
+65,t10_ldb_ag25dwn_p t10_ldb_nhwht_p,0.15661712395395647
+66,t10_ldb_ag25dwn_p t10_ldb_asian_p,0.0
+67,t10_ldb_ag25dwn_p t10_ldb_fb_p,0.0
+68,t10_ldb_ag25dwn_p t10_ldb_hs_p,0.0
+69,t10_ldb_ag25dwn_p t10_ldb_unemp_p,0.0
+70,t10_ldb_ag25dwn_p t10_ldb_npov_p,0.1123321204158127
+71,t10_ldb_ag25dwn_p t10_ldb_vac_p,0.007708385327809362
+72,t10_ldb_ag25dwn_p t10_ldb_own_p,0.06937054534647805
+73,t10_ldb_ag25dwn_p t10_ldb_mhmvali_m,0.10466557267094173
+74,t10_ldb_ag60up_p^2,-0.5200605080567012
+75,t10_ldb_ag60up_p t10_ldb_nhblk_p,-0.08927002299726138
+76,t10_ldb_ag60up_p t10_ldb_hisp_p,0.20448601608376432
+77,t10_ldb_ag60up_p t10_ldb_col_p,0.0961781754460775
+78,t10_ldb_ag60up_p t10_ldb_lep_p,0.0
+79,t10_ldb_ag60up_p t10_ldb_mrenti_m,0.0072608969879056845
+80,t10_ldb_ag60up_p t10_ldb_multi_p,-0.006618554791226425
+81,t10_ldb_ag60up_p t10_ldb_nhwht_p,-0.0
+82,t10_ldb_ag60up_p t10_ldb_asian_p,0.09588379647262192
+83,t10_ldb_ag60up_p t10_ldb_fb_p,0.13050863750623398
+84,t10_ldb_ag60up_p t10_ldb_hs_p,-0.18047968860242758
+85,t10_ldb_ag60up_p t10_ldb_unemp_p,0.12230078422509975
+86,t10_ldb_ag60up_p t10_ldb_npov_p,-0.029760567290528336
+87,t10_ldb_ag60up_p t10_ldb_vac_p,0.13721491156708315
+88,t10_ldb_ag60up_p t10_ldb_own_p,0.411774625370315
+89,t10_ldb_ag60up_p t10_ldb_mhmvali_m,-0.07828138684775052
+90,t10_ldb_nhblk_p^2,0.0
+91,t10_ldb_nhblk_p t10_ldb_hisp_p,-0.08045364462826862
+92,t10_ldb_nhblk_p t10_ldb_col_p,0.0032620821548839008
+93,t10_ldb_nhblk_p t10_ldb_lep_p,-0.09006729093844221
+94,t10_ldb_nhblk_p t10_ldb_mrenti_m,0.09642211817539975
+95,t10_ldb_nhblk_p t10_ldb_multi_p,0.0
+96,t10_ldb_nhblk_p t10_ldb_nhwht_p,-0.07481667189326216
+97,t10_ldb_nhblk_p t10_ldb_asian_p,-0.01453042561471996
+98,t10_ldb_nhblk_p t10_ldb_fb_p,0.22228592571241226
+99,t10_ldb_nhblk_p t10_ldb_hs_p,0.35864771783786115
+100,t10_ldb_nhblk_p t10_ldb_unemp_p,-0.30728744985595957
+101,t10_ldb_nhblk_p t10_ldb_npov_p,0.0
+102,t10_ldb_nhblk_p t10_ldb_vac_p,-0.18785398438555645
+103,t10_ldb_nhblk_p t10_ldb_own_p,-0.0
+104,t10_ldb_nhblk_p t10_ldb_mhmvali_m,-0.11951372439502189
+105,t10_ldb_hisp_p^2,0.14496616796851206
+106,t10_ldb_hisp_p t10_ldb_col_p,0.044742697372369473
+107,t10_ldb_hisp_p t10_ldb_lep_p,0.024068367450121673
+108,t10_ldb_hisp_p t10_ldb_mrenti_m,0.14024627877391777
+109,t10_ldb_hisp_p t10_ldb_multi_p,-0.02428329990012473
+110,t10_ldb_hisp_p t10_ldb_nhwht_p,-0.12006386938277687
+111,t10_ldb_hisp_p t10_ldb_asian_p,0.038450722158058025
+112,t10_ldb_hisp_p t10_ldb_fb_p,-0.0
+113,t10_ldb_hisp_p t10_ldb_hs_p,0.0
+114,t10_ldb_hisp_p t10_ldb_unemp_p,-0.0191033770029846
+115,t10_ldb_hisp_p t10_ldb_npov_p,-0.08196969959384413
+116,t10_ldb_hisp_p t10_ldb_vac_p,-0.057964776703381564
+117,t10_ldb_hisp_p t10_ldb_own_p,-0.0
+118,t10_ldb_hisp_p t10_ldb_mhmvali_m,-0.017210600529952373
+119,t10_ldb_col_p^2,-0.1476116126376657
+120,t10_ldb_col_p t10_ldb_lep_p,0.0
+121,t10_ldb_col_p t10_ldb_mrenti_m,0.024612305207199443
+122,t10_ldb_col_p t10_ldb_multi_p,-0.07999361197069711
+123,t10_ldb_col_p t10_ldb_nhwht_p,-0.0
+124,t10_ldb_col_p t10_ldb_asian_p,-0.02037014463791484
+125,t10_ldb_col_p t10_ldb_fb_p,0.11292272524667815
+126,t10_ldb_col_p t10_ldb_hs_p,-0.06699329840955004
+127,t10_ldb_col_p t10_ldb_unemp_p,0.13035227731177185
+128,t10_ldb_col_p t10_ldb_npov_p,0.094047026132008
+129,t10_ldb_col_p t10_ldb_vac_p,-0.07452915114457394
+130,t10_ldb_col_p t10_ldb_own_p,0.0
+131,t10_ldb_col_p t10_ldb_mhmvali_m,0.07197202714702759
+132,t10_ldb_lep_p^2,-0.06866459273714606
+133,t10_ldb_lep_p t10_ldb_mrenti_m,0.0
+134,t10_ldb_lep_p t10_ldb_multi_p,-0.1033343615437334
+135,t10_ldb_lep_p t10_ldb_nhwht_p,0.1411428809400077
+136,t10_ldb_lep_p t10_ldb_asian_p,0.17747248617313177
+137,t10_ldb_lep_p t10_ldb_fb_p,0.09835491648969377
+138,t10_ldb_lep_p t10_ldb_hs_p,0.27154475542211554
+139,t10_ldb_lep_p t10_ldb_unemp_p,-0.08149632086830916
+140,t10_ldb_lep_p t10_ldb_npov_p,0.0755130558882924
+141,t10_ldb_lep_p t10_ldb_vac_p,-0.07852680552571957
+142,t10_ldb_lep_p t10_ldb_own_p,-0.14799566730377614
+143,t10_ldb_lep_p t10_ldb_mhmvali_m,-0.10328326686193261
+144,t10_ldb_mrenti_m^2,-0.21904198923005183
+145,t10_ldb_mrenti_m t10_ldb_multi_p,0.44749511451951524
+146,t10_ldb_mrenti_m t10_ldb_nhwht_p,-0.02870912022127451
+147,t10_ldb_mrenti_m t10_ldb_asian_p,0.0
+148,t10_ldb_mrenti_m t10_ldb_fb_p,0.054189241497816086
+149,t10_ldb_mrenti_m t10_ldb_hs_p,-0.25830595988902094
+150,t10_ldb_mrenti_m t10_ldb_unemp_p,0.14708707118118722
+151,t10_ldb_mrenti_m t10_ldb_npov_p,-0.16297679006364524
+152,t10_ldb_mrenti_m t10_ldb_vac_p,-0.05582637459071378
+153,t10_ldb_mrenti_m t10_ldb_own_p,-0.08713906647515031
+154,t10_ldb_mrenti_m t10_ldb_mhmvali_m,0.0
+155,t10_ldb_multi_p^2,0.17248716435549336
+156,t10_ldb_multi_p t10_ldb_nhwht_p,0.0
+157,t10_ldb_multi_p t10_ldb_asian_p,-0.0
+158,t10_ldb_multi_p t10_ldb_fb_p,-0.020003045900769005
+159,t10_ldb_multi_p t10_ldb_hs_p,-0.0
+160,t10_ldb_multi_p t10_ldb_unemp_p,0.051307822652924176
+161,t10_ldb_multi_p t10_ldb_npov_p,-0.0
+162,t10_ldb_multi_p t10_ldb_vac_p,-0.1786808768437325
+163,t10_ldb_multi_p t10_ldb_own_p,0.003958160003821735
+164,t10_ldb_multi_p t10_ldb_mhmvali_m,-0.3511656087143504
+165,t10_ldb_nhwht_p^2,0.4042850747334833
+166,t10_ldb_nhwht_p t10_ldb_asian_p,-0.020405815519781413
+167,t10_ldb_nhwht_p t10_ldb_fb_p,0.03360807377067234
+168,t10_ldb_nhwht_p t10_ldb_hs_p,-0.0503511985200728
+169,t10_ldb_nhwht_p t10_ldb_unemp_p,-0.4109684616885513
+170,t10_ldb_nhwht_p t10_ldb_npov_p,-0.34123875989201674
+171,t10_ldb_nhwht_p t10_ldb_vac_p,0.0
+172,t10_ldb_nhwht_p t10_ldb_own_p,0.3784601101615168
+173,t10_ldb_nhwht_p t10_ldb_mhmvali_m,0.1259861992102003
+174,t10_ldb_asian_p^2,0.058835989121040815
+175,t10_ldb_asian_p t10_ldb_fb_p,0.0
+176,t10_ldb_asian_p t10_ldb_hs_p,0.0
+177,t10_ldb_asian_p t10_ldb_unemp_p,-0.11516046996424585
+178,t10_ldb_asian_p t10_ldb_npov_p,-0.024501866193618143
+179,t10_ldb_asian_p t10_ldb_vac_p,-0.043465631650597164
+180,t10_ldb_asian_p t10_ldb_own_p,0.058765355691373776
+181,t10_ldb_asian_p t10_ldb_mhmvali_m,-0.0
+182,t10_ldb_fb_p^2,-0.12413958970850318
+183,t10_ldb_fb_p t10_ldb_hs_p,0.07135288461567617
+184,t10_ldb_fb_p t10_ldb_unemp_p,0.007118227509573043
+185,t10_ldb_fb_p t10_ldb_npov_p,-0.07401933715975458
+186,t10_ldb_fb_p t10_ldb_vac_p,0.07526206105377976
+187,t10_ldb_fb_p t10_ldb_own_p,0.0
+188,t10_ldb_fb_p t10_ldb_mhmvali_m,0.0
+189,t10_ldb_hs_p^2,0.05696549996468625
+190,t10_ldb_hs_p t10_ldb_unemp_p,0.057884286656064654
+191,t10_ldb_hs_p t10_ldb_npov_p,-0.0
+192,t10_ldb_hs_p t10_ldb_vac_p,0.0
+193,t10_ldb_hs_p t10_ldb_own_p,0.2907082146650676
+194,t10_ldb_hs_p t10_ldb_mhmvali_m,0.34336728221919455
+195,t10_ldb_unemp_p^2,-0.050695156878883534
+196,t10_ldb_unemp_p t10_ldb_npov_p,0.2613580729474099
+197,t10_ldb_unemp_p t10_ldb_vac_p,-0.06795997579688913
+198,t10_ldb_unemp_p t10_ldb_own_p,-0.03718250127958814
+199,t10_ldb_unemp_p t10_ldb_mhmvali_m,-0.02482356162734931
+200,t10_ldb_npov_p^2,0.09077007760402063
+201,t10_ldb_npov_p t10_ldb_vac_p,0.0
+202,t10_ldb_npov_p t10_ldb_own_p,0.0
+203,t10_ldb_npov_p t10_ldb_mhmvali_m,-0.0
+204,t10_ldb_vac_p^2,-0.03299452433182221
+205,t10_ldb_vac_p t10_ldb_own_p,0.0018030548224042017
+206,t10_ldb_vac_p t10_ldb_mhmvali_m,-0.09641737829052334
+207,t10_ldb_own_p^2,-0.0070549695257212655
+208,t10_ldb_own_p t10_ldb_mhmvali_m,-0.18262139773516506
+209,t10_ldb_mhmvali_m^2,-0.14986306835422597

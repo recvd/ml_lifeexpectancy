@@ -1,0 +1,211 @@
+,feature,coef
+0,1,0.0
+1,t10_ldb_hinci_m,1.0607899666805514
+2,t10_ldb_pop_d,-0.7678403230321162
+3,t10_ldb_ag25dwn_p,-0.22889223388590363
+4,t10_ldb_ag60up_p,0.03343136882009323
+5,t10_ldb_nhblk_p,0.0
+6,t10_ldb_hisp_p,0.0
+7,t10_ldb_col_p,0.4016145160744415
+8,t10_ldb_lep_p,0.0
+9,t10_ldb_mrenti_m,0.5254333390247107
+10,t10_ldb_multi_p,0.0
+11,t10_ldb_nhwht_p,-0.0
+12,t10_ldb_asian_p,0.10644273651502802
+13,t10_ldb_fb_p,0.06876473308573862
+14,t10_ldb_hs_p,-0.9250906395559751
+15,t10_ldb_unemp_p,0.0
+16,t10_ldb_npov_p,-0.7019352639623356
+17,t10_ldb_vac_p,0.2141939060702053
+18,t10_ldb_own_p,0.39612953457204003
+19,t10_ldb_mhmvali_m,0.6913145208940015
+20,t10_ldb_hinci_m^2,0.30067392869417797
+21,t10_ldb_hinci_m t10_ldb_pop_d,0.031746759671115926
+22,t10_ldb_hinci_m t10_ldb_ag25dwn_p,-0.06232930966987683
+23,t10_ldb_hinci_m t10_ldb_ag60up_p,0.014378120361777998
+24,t10_ldb_hinci_m t10_ldb_nhblk_p,0.0
+25,t10_ldb_hinci_m t10_ldb_hisp_p,-0.0
+26,t10_ldb_hinci_m t10_ldb_col_p,-0.3500879882575777
+27,t10_ldb_hinci_m t10_ldb_lep_p,-0.062297571145415634
+28,t10_ldb_hinci_m t10_ldb_mrenti_m,-0.16450644215610902
+29,t10_ldb_hinci_m t10_ldb_multi_p,-0.15803570900282587
+30,t10_ldb_hinci_m t10_ldb_nhwht_p,-0.7355451763264292
+31,t10_ldb_hinci_m t10_ldb_asian_p,-0.15681151446350491
+32,t10_ldb_hinci_m t10_ldb_fb_p,-0.0
+33,t10_ldb_hinci_m t10_ldb_hs_p,0.04452839869867776
+34,t10_ldb_hinci_m t10_ldb_unemp_p,-0.0
+35,t10_ldb_hinci_m t10_ldb_npov_p,0.3285394372750922
+36,t10_ldb_hinci_m t10_ldb_vac_p,0.0
+37,t10_ldb_hinci_m t10_ldb_own_p,-0.6921579581972301
+38,t10_ldb_hinci_m t10_ldb_mhmvali_m,-0.0
+39,t10_ldb_pop_d^2,0.12144575032338596
+40,t10_ldb_pop_d t10_ldb_ag25dwn_p,0.07337811078514722
+41,t10_ldb_pop_d t10_ldb_ag60up_p,0.21671340067053319
+42,t10_ldb_pop_d t10_ldb_nhblk_p,-0.09062408394085501
+43,t10_ldb_pop_d t10_ldb_hisp_p,0.0
+44,t10_ldb_pop_d t10_ldb_col_p,-0.02188844286004189
+45,t10_ldb_pop_d t10_ldb_lep_p,-0.01617104169411969
+46,t10_ldb_pop_d t10_ldb_mrenti_m,-0.0
+47,t10_ldb_pop_d t10_ldb_multi_p,0.514994438272885
+48,t10_ldb_pop_d t10_ldb_nhwht_p,-0.1420122479336516
+49,t10_ldb_pop_d t10_ldb_asian_p,0.002701027205478618
+50,t10_ldb_pop_d t10_ldb_fb_p,0.0
+51,t10_ldb_pop_d t10_ldb_hs_p,0.0
+52,t10_ldb_pop_d t10_ldb_unemp_p,-0.04793298784617478
+53,t10_ldb_pop_d t10_ldb_npov_p,0.013905699935282458
+54,t10_ldb_pop_d t10_ldb_vac_p,-0.03278911415909507
+55,t10_ldb_pop_d t10_ldb_own_p,0.003875384037589025
+56,t10_ldb_pop_d t10_ldb_mhmvali_m,0.10014992267966771
+57,t10_ldb_ag25dwn_p^2,-0.0
+58,t10_ldb_ag25dwn_p t10_ldb_ag60up_p,0.035019035477560474
+59,t10_ldb_ag25dwn_p t10_ldb_nhblk_p,-0.20694907749390187
+60,t10_ldb_ag25dwn_p t10_ldb_hisp_p,0.0
+61,t10_ldb_ag25dwn_p t10_ldb_col_p,0.0837593624872426
+62,t10_ldb_ag25dwn_p t10_ldb_lep_p,0.33007228363220736
+63,t10_ldb_ag25dwn_p t10_ldb_mrenti_m,0.11264877452887642
+64,t10_ldb_ag25dwn_p t10_ldb_multi_p,0.3093132984155449
+65,t10_ldb_ag25dwn_p t10_ldb_nhwht_p,0.40467005786763444
+66,t10_ldb_ag25dwn_p t10_ldb_asian_p,0.008702725863777547
+67,t10_ldb_ag25dwn_p t10_ldb_fb_p,0.03532866431125585
+68,t10_ldb_ag25dwn_p t10_ldb_hs_p,-0.0
+69,t10_ldb_ag25dwn_p t10_ldb_unemp_p,0.0
+70,t10_ldb_ag25dwn_p t10_ldb_npov_p,0.11722892611223493
+71,t10_ldb_ag25dwn_p t10_ldb_vac_p,-0.0
+72,t10_ldb_ag25dwn_p t10_ldb_own_p,0.10203728088468947
+73,t10_ldb_ag25dwn_p t10_ldb_mhmvali_m,0.10402875882458856
+74,t10_ldb_ag60up_p^2,-0.5189458310688516
+75,t10_ldb_ag60up_p t10_ldb_nhblk_p,-0.050854356144695516
+76,t10_ldb_ag60up_p t10_ldb_hisp_p,0.1975026168091945
+77,t10_ldb_ag60up_p t10_ldb_col_p,0.19391841770569004
+78,t10_ldb_ag60up_p t10_ldb_lep_p,0.04726195175615987
+79,t10_ldb_ag60up_p t10_ldb_mrenti_m,0.02113581564514986
+80,t10_ldb_ag60up_p t10_ldb_multi_p,0.04528204921850337
+81,t10_ldb_ag60up_p t10_ldb_nhwht_p,0.24551839359840053
+82,t10_ldb_ag60up_p t10_ldb_asian_p,0.11624542201231876
+83,t10_ldb_ag60up_p t10_ldb_fb_p,0.18938070554582354
+84,t10_ldb_ag60up_p t10_ldb_hs_p,-0.08898271166841105
+85,t10_ldb_ag60up_p t10_ldb_unemp_p,0.11174695245747601
+86,t10_ldb_ag60up_p t10_ldb_npov_p,-0.11444047070417052
+87,t10_ldb_ag60up_p t10_ldb_vac_p,0.11878688038143619
+88,t10_ldb_ag60up_p t10_ldb_own_p,0.5012983861345423
+89,t10_ldb_ag60up_p t10_ldb_mhmvali_m,-0.010561676255752816
+90,t10_ldb_nhblk_p^2,0.0
+91,t10_ldb_nhblk_p t10_ldb_hisp_p,-0.015446018485224538
+92,t10_ldb_nhblk_p t10_ldb_col_p,0.006534037592394286
+93,t10_ldb_nhblk_p t10_ldb_lep_p,-0.12184405184115475
+94,t10_ldb_nhblk_p t10_ldb_mrenti_m,0.12527835666870193
+95,t10_ldb_nhblk_p t10_ldb_multi_p,0.03837233925497453
+96,t10_ldb_nhblk_p t10_ldb_nhwht_p,-0.03950297789583946
+97,t10_ldb_nhblk_p t10_ldb_asian_p,-0.006823982650274863
+98,t10_ldb_nhblk_p t10_ldb_fb_p,0.21952914649285593
+99,t10_ldb_nhblk_p t10_ldb_hs_p,0.415229232756917
+100,t10_ldb_nhblk_p t10_ldb_unemp_p,-0.3772126744483371
+101,t10_ldb_nhblk_p t10_ldb_npov_p,0.0
+102,t10_ldb_nhblk_p t10_ldb_vac_p,-0.1865880160303679
+103,t10_ldb_nhblk_p t10_ldb_own_p,-0.0
+104,t10_ldb_nhblk_p t10_ldb_mhmvali_m,-0.207966540624549
+105,t10_ldb_hisp_p^2,0.35332495937249503
+106,t10_ldb_hisp_p t10_ldb_col_p,0.035827756773395385
+107,t10_ldb_hisp_p t10_ldb_lep_p,3.564605587075296e-05
+108,t10_ldb_hisp_p t10_ldb_mrenti_m,0.15252650157931905
+109,t10_ldb_hisp_p t10_ldb_multi_p,-0.050848072027725046
+110,t10_ldb_hisp_p t10_ldb_nhwht_p,-0.025331636865538205
+111,t10_ldb_hisp_p t10_ldb_asian_p,0.04999980534572001
+112,t10_ldb_hisp_p t10_ldb_fb_p,0.0
+113,t10_ldb_hisp_p t10_ldb_hs_p,-0.0
+114,t10_ldb_hisp_p t10_ldb_unemp_p,-0.05844587176951845
+115,t10_ldb_hisp_p t10_ldb_npov_p,-0.13081065461150987
+116,t10_ldb_hisp_p t10_ldb_vac_p,-0.012649135944733412
+117,t10_ldb_hisp_p t10_ldb_own_p,-0.0
+118,t10_ldb_hisp_p t10_ldb_mhmvali_m,-0.1126550644094377
+119,t10_ldb_col_p^2,-0.14078680725609824
+120,t10_ldb_col_p t10_ldb_lep_p,0.01285146452113595
+121,t10_ldb_col_p t10_ldb_mrenti_m,0.05006426141735439
+122,t10_ldb_col_p t10_ldb_multi_p,-0.11058759903525298
+123,t10_ldb_col_p t10_ldb_nhwht_p,0.0
+124,t10_ldb_col_p t10_ldb_asian_p,-0.009088167435607256
+125,t10_ldb_col_p t10_ldb_fb_p,0.11249828600943491
+126,t10_ldb_col_p t10_ldb_hs_p,-0.05332158165120654
+127,t10_ldb_col_p t10_ldb_unemp_p,0.1585479369428385
+128,t10_ldb_col_p t10_ldb_npov_p,0.09975662859711304
+129,t10_ldb_col_p t10_ldb_vac_p,-0.04013705339085578
+130,t10_ldb_col_p t10_ldb_own_p,0.0
+131,t10_ldb_col_p t10_ldb_mhmvali_m,0.27083545775862555
+132,t10_ldb_lep_p^2,-0.12131305241594353
+133,t10_ldb_lep_p t10_ldb_mrenti_m,0.05887224925568727
+134,t10_ldb_lep_p t10_ldb_multi_p,-0.14272810691327933
+135,t10_ldb_lep_p t10_ldb_nhwht_p,0.1483901826781879
+136,t10_ldb_lep_p t10_ldb_asian_p,0.19863502523631818
+137,t10_ldb_lep_p t10_ldb_fb_p,0.09264430925704749
+138,t10_ldb_lep_p t10_ldb_hs_p,0.3079729675259479
+139,t10_ldb_lep_p t10_ldb_unemp_p,-0.09313599211017945
+140,t10_ldb_lep_p t10_ldb_npov_p,0.10225541836802518
+141,t10_ldb_lep_p t10_ldb_vac_p,-0.07819232407141145
+142,t10_ldb_lep_p t10_ldb_own_p,-0.1916384942295299
+143,t10_ldb_lep_p t10_ldb_mhmvali_m,-0.1476041590476126
+144,t10_ldb_mrenti_m^2,-0.25665241684340395
+145,t10_ldb_mrenti_m t10_ldb_multi_p,0.5207485466448444
+146,t10_ldb_mrenti_m t10_ldb_nhwht_p,-0.07987740828537358
+147,t10_ldb_mrenti_m t10_ldb_asian_p,-0.0
+148,t10_ldb_mrenti_m t10_ldb_fb_p,0.0066351805426659236
+149,t10_ldb_mrenti_m t10_ldb_hs_p,-0.416630448540661
+150,t10_ldb_mrenti_m t10_ldb_unemp_p,0.18173250200623173
+151,t10_ldb_mrenti_m t10_ldb_npov_p,-0.19797920945203615
+152,t10_ldb_mrenti_m t10_ldb_vac_p,-0.09741696212353237
+153,t10_ldb_mrenti_m t10_ldb_own_p,-0.172321012924594
+154,t10_ldb_mrenti_m t10_ldb_mhmvali_m,-0.0
+155,t10_ldb_multi_p^2,0.16827078807323204
+156,t10_ldb_multi_p t10_ldb_nhwht_p,0.0014512011466793551
+157,t10_ldb_multi_p t10_ldb_asian_p,-0.018652130186782065
+158,t10_ldb_multi_p t10_ldb_fb_p,-0.0
+159,t10_ldb_multi_p t10_ldb_hs_p,0.0
+160,t10_ldb_multi_p t10_ldb_unemp_p,0.02559730977251645
+161,t10_ldb_multi_p t10_ldb_npov_p,-0.0
+162,t10_ldb_multi_p t10_ldb_vac_p,-0.21722406203602165
+163,t10_ldb_multi_p t10_ldb_own_p,0.011258757442876036
+164,t10_ldb_multi_p t10_ldb_mhmvali_m,-0.4634348840464078
+165,t10_ldb_nhwht_p^2,0.5677043860667611
+166,t10_ldb_nhwht_p t10_ldb_asian_p,-0.014625249309377576
+167,t10_ldb_nhwht_p t10_ldb_fb_p,0.0
+168,t10_ldb_nhwht_p t10_ldb_hs_p,-0.141567230594793
+169,t10_ldb_nhwht_p t10_ldb_unemp_p,-0.5110868968921924
+170,t10_ldb_nhwht_p t10_ldb_npov_p,-0.44929722088497565
+171,t10_ldb_nhwht_p t10_ldb_vac_p,0.0
+172,t10_ldb_nhwht_p t10_ldb_own_p,0.5710025217603637
+173,t10_ldb_nhwht_p t10_ldb_mhmvali_m,0.04721957770714981
+174,t10_ldb_asian_p^2,0.02381894453157699
+175,t10_ldb_asian_p t10_ldb_fb_p,-0.022201802449586177
+176,t10_ldb_asian_p t10_ldb_hs_p,0.0
+177,t10_ldb_asian_p t10_ldb_unemp_p,-0.1365640862556931
+178,t10_ldb_asian_p t10_ldb_npov_p,-0.04713760416686744
+179,t10_ldb_asian_p t10_ldb_vac_p,-0.0429769789980598
+180,t10_ldb_asian_p t10_ldb_own_p,0.09248010626886044
+181,t10_ldb_asian_p t10_ldb_mhmvali_m,-0.0038393996646612456
+182,t10_ldb_fb_p^2,-0.08526461654468528
+183,t10_ldb_fb_p t10_ldb_hs_p,0.0631826126932492
+184,t10_ldb_fb_p t10_ldb_unemp_p,0.02557163118743249
+185,t10_ldb_fb_p t10_ldb_npov_p,-0.07113888388715223
+186,t10_ldb_fb_p t10_ldb_vac_p,0.0813030961854243
+187,t10_ldb_fb_p t10_ldb_own_p,-0.0
+188,t10_ldb_fb_p t10_ldb_mhmvali_m,0.0
+189,t10_ldb_hs_p^2,0.02769252897167507
+190,t10_ldb_hs_p t10_ldb_unemp_p,0.036730076069720015
+191,t10_ldb_hs_p t10_ldb_npov_p,-0.0
+192,t10_ldb_hs_p t10_ldb_vac_p,0.0
+193,t10_ldb_hs_p t10_ldb_own_p,0.4516705163004471
+194,t10_ldb_hs_p t10_ldb_mhmvali_m,0.5313624308568241
+195,t10_ldb_unemp_p^2,-0.05489492860958921
+196,t10_ldb_unemp_p t10_ldb_npov_p,0.3632897758548278
+197,t10_ldb_unemp_p t10_ldb_vac_p,-0.05804672785215384
+198,t10_ldb_unemp_p t10_ldb_own_p,-0.030631297295153907
+199,t10_ldb_unemp_p t10_ldb_mhmvali_m,-0.03270564931782628
+200,t10_ldb_npov_p^2,0.21674515445891482
+201,t10_ldb_npov_p t10_ldb_vac_p,0.0
+202,t10_ldb_npov_p t10_ldb_own_p,0.015024044334063761
+203,t10_ldb_npov_p t10_ldb_mhmvali_m,0.0043977678088060424
+204,t10_ldb_vac_p^2,0.010309450971752196
+205,t10_ldb_vac_p t10_ldb_own_p,0.1190484248398514
+206,t10_ldb_vac_p t10_ldb_mhmvali_m,-0.08728386227923556
+207,t10_ldb_own_p^2,-0.0
+208,t10_ldb_own_p t10_ldb_mhmvali_m,-0.32914469976586835
+209,t10_ldb_mhmvali_m^2,-0.257473158850276

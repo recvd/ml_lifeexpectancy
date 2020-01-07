@@ -1,0 +1,254 @@
+,feature,coef
+0,1,0.0
+1,t10_net_act_d,0.0
+2,t10_net_amb_d,0.21051201888945925
+3,t10_net_apa_d,0.5068482714988213
+4,t10_net_aur_d,0.0
+5,t10_net_bar_d,-0.0
+6,t10_net_cer_d,0.0
+7,t10_net_dra_d,0.0
+8,t10_net_ffa_d,-0.08166905021275202
+9,t10_net_fin_d,-0.0
+10,t10_net_fsa_d,0.025576249139058534
+11,t10_net_fsr_d,-0.3611217718127684
+12,t10_net_hoi_d,-0.05602544578790453
+13,t10_net_hsr_d,0.0516550505013748
+14,t10_net_kct_d,-0.024639963650083873
+15,t10_net_liq_d,-0.0
+16,t10_net_mul_d,-0.0
+17,t10_net_ngt_d,-0.3734308415274311
+18,t10_net_pht_d,0.07142891296918077
+19,t10_net_res_d,-0.25701638390197773
+20,t10_net_srv_d,-0.10505096330016983
+21,t10_net_wal_d,0.24760391437714366
+22,t10_net_act_d^2,-0.0
+23,t10_net_act_d t10_net_amb_d,-0.0
+24,t10_net_act_d t10_net_apa_d,-0.0
+25,t10_net_act_d t10_net_aur_d,-0.0
+26,t10_net_act_d t10_net_bar_d,0.0
+27,t10_net_act_d t10_net_cer_d,-0.0
+28,t10_net_act_d t10_net_dra_d,-0.0
+29,t10_net_act_d t10_net_ffa_d,-0.0
+30,t10_net_act_d t10_net_fin_d,-0.0
+31,t10_net_act_d t10_net_fsa_d,-0.0
+32,t10_net_act_d t10_net_fsr_d,-0.0
+33,t10_net_act_d t10_net_hoi_d,-0.0
+34,t10_net_act_d t10_net_hsr_d,-0.0
+35,t10_net_act_d t10_net_kct_d,-0.0
+36,t10_net_act_d t10_net_liq_d,-0.0
+37,t10_net_act_d t10_net_mul_d,-0.0
+38,t10_net_act_d t10_net_ngt_d,0.0
+39,t10_net_act_d t10_net_pht_d,-0.0
+40,t10_net_act_d t10_net_res_d,-0.0
+41,t10_net_act_d t10_net_srv_d,-0.0
+42,t10_net_act_d t10_net_wal_d,-0.0
+43,t10_net_amb_d^2,-0.025004249311061346
+44,t10_net_amb_d t10_net_apa_d,-0.0
+45,t10_net_amb_d t10_net_aur_d,-0.0
+46,t10_net_amb_d t10_net_bar_d,0.0
+47,t10_net_amb_d t10_net_cer_d,-0.0
+48,t10_net_amb_d t10_net_dra_d,-0.0
+49,t10_net_amb_d t10_net_ffa_d,-0.0
+50,t10_net_amb_d t10_net_fin_d,-0.0
+51,t10_net_amb_d t10_net_fsa_d,-0.0
+52,t10_net_amb_d t10_net_fsr_d,-0.0
+53,t10_net_amb_d t10_net_hoi_d,-0.0
+54,t10_net_amb_d t10_net_hsr_d,-0.0
+55,t10_net_amb_d t10_net_kct_d,-0.0
+56,t10_net_amb_d t10_net_liq_d,-0.0
+57,t10_net_amb_d t10_net_mul_d,-0.0
+58,t10_net_amb_d t10_net_ngt_d,0.0
+59,t10_net_amb_d t10_net_pht_d,-0.0
+60,t10_net_amb_d t10_net_res_d,-0.0
+61,t10_net_amb_d t10_net_srv_d,-0.0
+62,t10_net_amb_d t10_net_wal_d,-0.0
+63,t10_net_apa_d^2,-0.05529881959771347
+64,t10_net_apa_d t10_net_aur_d,-0.0
+65,t10_net_apa_d t10_net_bar_d,-0.0
+66,t10_net_apa_d t10_net_cer_d,-0.04874348696408793
+67,t10_net_apa_d t10_net_dra_d,-0.0028888116802904115
+68,t10_net_apa_d t10_net_ffa_d,-0.0
+69,t10_net_apa_d t10_net_fin_d,-0.0
+70,t10_net_apa_d t10_net_fsa_d,-0.0
+71,t10_net_apa_d t10_net_fsr_d,-0.0
+72,t10_net_apa_d t10_net_hoi_d,-0.0
+73,t10_net_apa_d t10_net_hsr_d,-0.0
+74,t10_net_apa_d t10_net_kct_d,-0.0
+75,t10_net_apa_d t10_net_liq_d,-0.0
+76,t10_net_apa_d t10_net_mul_d,-0.02662988515000658
+77,t10_net_apa_d t10_net_ngt_d,-0.0
+78,t10_net_apa_d t10_net_pht_d,-0.09658336650911366
+79,t10_net_apa_d t10_net_res_d,0.0
+80,t10_net_apa_d t10_net_srv_d,-0.0
+81,t10_net_apa_d t10_net_wal_d,-0.0
+82,t10_net_aur_d^2,0.0
+83,t10_net_aur_d t10_net_bar_d,0.0
+84,t10_net_aur_d t10_net_cer_d,-0.0
+85,t10_net_aur_d t10_net_dra_d,0.0
+86,t10_net_aur_d t10_net_ffa_d,-0.0
+87,t10_net_aur_d t10_net_fin_d,-0.0
+88,t10_net_aur_d t10_net_fsa_d,0.0
+89,t10_net_aur_d t10_net_fsr_d,0.0
+90,t10_net_aur_d t10_net_hoi_d,0.0
+91,t10_net_aur_d t10_net_hsr_d,0.0
+92,t10_net_aur_d t10_net_kct_d,0.0
+93,t10_net_aur_d t10_net_liq_d,0.0
+94,t10_net_aur_d t10_net_mul_d,-0.0
+95,t10_net_aur_d t10_net_ngt_d,0.05327515751997249
+96,t10_net_aur_d t10_net_pht_d,-0.0
+97,t10_net_aur_d t10_net_res_d,0.025776057120480065
+98,t10_net_aur_d t10_net_srv_d,0.0
+99,t10_net_aur_d t10_net_wal_d,0.0
+100,t10_net_bar_d^2,0.0
+101,t10_net_bar_d t10_net_cer_d,0.0
+102,t10_net_bar_d t10_net_dra_d,0.0
+103,t10_net_bar_d t10_net_ffa_d,0.0
+104,t10_net_bar_d t10_net_fin_d,0.0
+105,t10_net_bar_d t10_net_fsa_d,0.0
+106,t10_net_bar_d t10_net_fsr_d,0.0
+107,t10_net_bar_d t10_net_hoi_d,0.0
+108,t10_net_bar_d t10_net_hsr_d,0.0
+109,t10_net_bar_d t10_net_kct_d,0.0
+110,t10_net_bar_d t10_net_liq_d,0.0
+111,t10_net_bar_d t10_net_mul_d,-0.0
+112,t10_net_bar_d t10_net_ngt_d,0.07105187305231937
+113,t10_net_bar_d t10_net_pht_d,-0.0
+114,t10_net_bar_d t10_net_res_d,0.040925887448413634
+115,t10_net_bar_d t10_net_srv_d,0.0
+116,t10_net_bar_d t10_net_wal_d,0.0
+117,t10_net_cer_d^2,-0.0
+118,t10_net_cer_d t10_net_dra_d,-0.0
+119,t10_net_cer_d t10_net_ffa_d,-0.0
+120,t10_net_cer_d t10_net_fin_d,-0.0
+121,t10_net_cer_d t10_net_fsa_d,-0.0
+122,t10_net_cer_d t10_net_fsr_d,-0.0
+123,t10_net_cer_d t10_net_hoi_d,0.0
+124,t10_net_cer_d t10_net_hsr_d,0.0
+125,t10_net_cer_d t10_net_kct_d,-0.0
+126,t10_net_cer_d t10_net_liq_d,-0.0
+127,t10_net_cer_d t10_net_mul_d,-0.0
+128,t10_net_cer_d t10_net_ngt_d,0.0
+129,t10_net_cer_d t10_net_pht_d,-0.005056769157611231
+130,t10_net_cer_d t10_net_res_d,0.0
+131,t10_net_cer_d t10_net_srv_d,-0.0
+132,t10_net_cer_d t10_net_wal_d,-0.0
+133,t10_net_dra_d^2,0.0
+134,t10_net_dra_d t10_net_ffa_d,0.0
+135,t10_net_dra_d t10_net_fin_d,-0.0
+136,t10_net_dra_d t10_net_fsa_d,0.0
+137,t10_net_dra_d t10_net_fsr_d,0.0
+138,t10_net_dra_d t10_net_hoi_d,0.0
+139,t10_net_dra_d t10_net_hsr_d,0.0
+140,t10_net_dra_d t10_net_kct_d,0.0
+141,t10_net_dra_d t10_net_liq_d,0.0
+142,t10_net_dra_d t10_net_mul_d,-0.0
+143,t10_net_dra_d t10_net_ngt_d,0.0
+144,t10_net_dra_d t10_net_pht_d,-0.0
+145,t10_net_dra_d t10_net_res_d,0.0
+146,t10_net_dra_d t10_net_srv_d,0.0
+147,t10_net_dra_d t10_net_wal_d,0.0
+148,t10_net_ffa_d^2,-0.0
+149,t10_net_ffa_d t10_net_fin_d,-0.0
+150,t10_net_ffa_d t10_net_fsa_d,-0.0
+151,t10_net_ffa_d t10_net_fsr_d,-0.0
+152,t10_net_ffa_d t10_net_hoi_d,0.0
+153,t10_net_ffa_d t10_net_hsr_d,-0.0
+154,t10_net_ffa_d t10_net_kct_d,0.0
+155,t10_net_ffa_d t10_net_liq_d,-0.0
+156,t10_net_ffa_d t10_net_mul_d,-0.0
+157,t10_net_ffa_d t10_net_ngt_d,0.0
+158,t10_net_ffa_d t10_net_pht_d,-0.0
+159,t10_net_ffa_d t10_net_res_d,0.0
+160,t10_net_ffa_d t10_net_srv_d,-0.0
+161,t10_net_ffa_d t10_net_wal_d,-0.0
+162,t10_net_fin_d^2,-0.0
+163,t10_net_fin_d t10_net_fsa_d,-0.0
+164,t10_net_fin_d t10_net_fsr_d,-0.0
+165,t10_net_fin_d t10_net_hoi_d,-0.0
+166,t10_net_fin_d t10_net_hsr_d,0.0
+167,t10_net_fin_d t10_net_kct_d,-0.0
+168,t10_net_fin_d t10_net_liq_d,-0.0
+169,t10_net_fin_d t10_net_mul_d,-0.0
+170,t10_net_fin_d t10_net_ngt_d,0.0
+171,t10_net_fin_d t10_net_pht_d,-0.0
+172,t10_net_fin_d t10_net_res_d,0.0
+173,t10_net_fin_d t10_net_srv_d,-0.0
+174,t10_net_fin_d t10_net_wal_d,-0.0
+175,t10_net_fsa_d^2,0.0
+176,t10_net_fsa_d t10_net_fsr_d,0.0
+177,t10_net_fsa_d t10_net_hoi_d,0.0
+178,t10_net_fsa_d t10_net_hsr_d,0.0
+179,t10_net_fsa_d t10_net_kct_d,0.0
+180,t10_net_fsa_d t10_net_liq_d,0.0
+181,t10_net_fsa_d t10_net_mul_d,-0.0
+182,t10_net_fsa_d t10_net_ngt_d,0.0
+183,t10_net_fsa_d t10_net_pht_d,-0.0
+184,t10_net_fsa_d t10_net_res_d,0.0
+185,t10_net_fsa_d t10_net_srv_d,0.0
+186,t10_net_fsa_d t10_net_wal_d,0.0
+187,t10_net_fsr_d^2,0.08066944100211611
+188,t10_net_fsr_d t10_net_hoi_d,0.0
+189,t10_net_fsr_d t10_net_hsr_d,0.014434152287646048
+190,t10_net_fsr_d t10_net_kct_d,-0.0
+191,t10_net_fsr_d t10_net_liq_d,0.0
+192,t10_net_fsr_d t10_net_mul_d,-0.0
+193,t10_net_fsr_d t10_net_ngt_d,0.0
+194,t10_net_fsr_d t10_net_pht_d,-0.0
+195,t10_net_fsr_d t10_net_res_d,0.0
+196,t10_net_fsr_d t10_net_srv_d,0.0
+197,t10_net_fsr_d t10_net_wal_d,0.0
+198,t10_net_hoi_d^2,0.0
+199,t10_net_hoi_d t10_net_hsr_d,0.0
+200,t10_net_hoi_d t10_net_kct_d,0.0
+201,t10_net_hoi_d t10_net_liq_d,0.0
+202,t10_net_hoi_d t10_net_mul_d,-0.0
+203,t10_net_hoi_d t10_net_ngt_d,0.0
+204,t10_net_hoi_d t10_net_pht_d,-0.0
+205,t10_net_hoi_d t10_net_res_d,0.0
+206,t10_net_hoi_d t10_net_srv_d,0.0
+207,t10_net_hoi_d t10_net_wal_d,0.0
+208,t10_net_hsr_d^2,0.0
+209,t10_net_hsr_d t10_net_kct_d,0.0
+210,t10_net_hsr_d t10_net_liq_d,0.0
+211,t10_net_hsr_d t10_net_mul_d,-0.0
+212,t10_net_hsr_d t10_net_ngt_d,0.0
+213,t10_net_hsr_d t10_net_pht_d,-0.0
+214,t10_net_hsr_d t10_net_res_d,0.0
+215,t10_net_hsr_d t10_net_srv_d,0.0
+216,t10_net_hsr_d t10_net_wal_d,0.0
+217,t10_net_kct_d^2,0.0
+218,t10_net_kct_d t10_net_liq_d,0.0
+219,t10_net_kct_d t10_net_mul_d,-0.0
+220,t10_net_kct_d t10_net_ngt_d,0.0
+221,t10_net_kct_d t10_net_pht_d,-0.0
+222,t10_net_kct_d t10_net_res_d,-0.0
+223,t10_net_kct_d t10_net_srv_d,0.0
+224,t10_net_kct_d t10_net_wal_d,0.0
+225,t10_net_liq_d^2,0.0
+226,t10_net_liq_d t10_net_mul_d,-0.0
+227,t10_net_liq_d t10_net_ngt_d,0.001931186789037062
+228,t10_net_liq_d t10_net_pht_d,-0.0
+229,t10_net_liq_d t10_net_res_d,-0.0
+230,t10_net_liq_d t10_net_srv_d,0.0
+231,t10_net_liq_d t10_net_wal_d,0.0
+232,t10_net_mul_d^2,-0.0
+233,t10_net_mul_d t10_net_ngt_d,-0.0
+234,t10_net_mul_d t10_net_pht_d,-0.0
+235,t10_net_mul_d t10_net_res_d,0.0
+236,t10_net_mul_d t10_net_srv_d,-0.0
+237,t10_net_mul_d t10_net_wal_d,-0.0
+238,t10_net_ngt_d^2,0.007665582541488148
+239,t10_net_ngt_d t10_net_pht_d,-0.0
+240,t10_net_ngt_d t10_net_res_d,0.0
+241,t10_net_ngt_d t10_net_srv_d,0.0
+242,t10_net_ngt_d t10_net_wal_d,0.0
+243,t10_net_pht_d^2,-0.0
+244,t10_net_pht_d t10_net_res_d,-0.0
+245,t10_net_pht_d t10_net_srv_d,-0.0
+246,t10_net_pht_d t10_net_wal_d,-0.0
+247,t10_net_res_d^2,0.06129267716366888
+248,t10_net_res_d t10_net_srv_d,0.0
+249,t10_net_res_d t10_net_wal_d,0.0
+250,t10_net_srv_d^2,0.0
+251,t10_net_srv_d t10_net_wal_d,-0.0
+252,t10_net_wal_d^2,-0.0
